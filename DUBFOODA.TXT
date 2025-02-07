@@ -1,0 +1,57 @@
+Start:  1/ 1/01               Dublin Food Co-op                2/ 4/02 03:21 pm
+  End: 31/12/01                 Trial Balance after rcoa                ID:SPV - Page:  1
+ 
+   Account Dept Description               Type         Debit          Credit
+   ------- ---- ------------------------- ---- --------------  --------------
+     100 - 100  Sales                       I                       269457.26
+     105 - 100  Misc Income                 I                          554.00
+     106 - 100  Producer Members            I                        19406.33
+     107 - 100  Members Subs                I                        11197.00
+     135 - 100  Purchases                   E       190010.69
+     210 - 100  Opening Stock-Closing Sto   E                          889.36
+     300 - 100  PAYE Salaries               E        54972.36
+     303 - 100  Overtime                    E           42.56
+     310 - 100  Other Self Employed Svs     E         6835.35
+     325 - 100  Rents North King St         E         5666.58
+     326 - 100  Rents St Andrews            E        10367.50
+     327 - 100  Insurance                   E         1215.48
+     330 - 100  Light & Heat                E          631.83
+     340 - 100  Printing & stationary       E         1120.03
+     341 - 100  Books & Magazines           E          217.09
+     343 - 100  Advertising                 E          254.60
+     345 - 100  Telephone                   E         1129.07
+     348 - 100  Postage                     E          576.77
+     349 - 100  Hospitality/Entertainment   E          535.49
+     350 - 100  Travelling Expenses         E         1424.42
+     355 - 100  Education                   E          596.32
+     356 - 100  Talks                       E          181.50
+     359 - 100  Packaging                   E         1404.68
+     360 - 100  Computer Expenses           E          634.29
+     361 - 100  Write Off                   E           28.64
+     370 - 100  Bank Charges                E          105.96
+     372 - 100  AGM                         E          441.80
+     376 - 100  Audit Fees                  E          625.00
+     378 - 100  Consultancy                 E          200.00
+     380 - 100  Sundry                      E         1582.78
+     390 - 100  Donations                   E           11.00
+     394 - 100  Taxation for Period         E          207.00
+     395 - 100  Deprec Fixtures and Fitti   E         1800.00
+     660 - 100  Fixtures Cost               A        14477.40
+     661 - 100  Fixtures Additions          A         5364.72
+     666 - 100  Fixtures Depreciation B/F   A                         8030.00
+     667 - 100  Fixtures Deprec Period      A                        10427.00
+     700 - 100  Work in Progress            A         8698.64
+     730 - 100  Debtors                     A          165.00
+     750 - 100  Prepayments                 A         2200.00
+     770 - 100  Bank Current                A        21778.30
+     771 - 100  Credit Union A/C 4614F      A        15095.11
+     772 - 100  Credit Union A/C 7557E      A        39836.84
+     780 - 100  Petty Cash                  A           26.37
+     830 - 100  Creditors                   L                        17437.03
+     850 - 100  Accruals                    L                         2420.00
+     890 - 100  Corp Tax                    L                          208.00
+     900 - 100  Members Shares              O                         1194.00
+     950 - 100  Reserves Brought fwd        O                        49241.19
+                                               --------------  --------------
+                                                    390461.17       390461.17
+
