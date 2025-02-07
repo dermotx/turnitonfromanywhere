@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!-- #BeginTemplate "index.dwt" -->
+<head>
+
+<!-- #BeginEditable "doctitle" -->
+
+<title>Raspi</title>
+
+<style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+.auto-style3 {
+	font-size: large;
+}
+</style>
+
+<!-- #EndEditable -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta content="Control electrical appliances or machinery from anywhere without internet or wifi" name="description" />
+<meta name="generator" content="thesitewizard.com's Layout Wizard 3.0.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" media="all" href="styles.css" />
+
+<link href="tswnavbar.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+
+.auto-style2 {
+	color: #0000FF;
+}
+.auto-style4 {
+	font-size: large;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="tswcontainer">
+	<div id="tswheader">
+	<!-- start of header section: insert your logo, etc, here -->
+
+	<p>
+	<img alt="our module" src="images/tind3.jpg" style="width: 350px; height: 206px" /><img alt="Raspberry Pi Arduino PIC" src="images/dual%20nano%20raspi_bb.png" style="width: 250px; height: 317px" /><img alt="" longdesc="DTMF" src="images/dual%20nanodtmf_bb.png" style="width: 250px; height: 328px" /></p>
+	<p>&nbsp;</p>
+
+	<!-- end of header section: insert your logo, etc, above this line -->
+	</div>
+
+	<div id="tswcontent">
+	<!-- #BeginEditable "Content" -->
+	<div id="tswcontproper">
+	<!-- start of content column: insert your content here -->
+
+	<h1>RASPI CONTROL</h1>
+		<p lang="en-US"><font face="Calibri, sans-serif">
+		<font size="5" style="font-size: 20pt"><u><b>Control up to EIGHT remote 
+		control sockets from your Arduino or Raspberry Pi or microcontroller.</b></u></font></font></p>
+		<p>&nbsp;In this Mode you can control up to 
+		eight sockets without the Raspberry Pi, Arduino or microcontroller being 
+		connected to the high voltage.&nbsp; This makes it very safe because you 
+		don't have to go near the socket. It has the advantage of being able to 
+		control EIGHT sockets unlike the
+		<a href="https://www.sparkfun.com/products/14236">IOT Power&nbsp;Relay</a> 
+		or the
+		<a href="https://www.probotix.com/CNC-CONTROL-SYSTEMS/ELECTRICAL-COMPONENTS/Power-Switch-Tail">
+		Power Switch Tail</a>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+		<p lang="en-US" style="margin-bottom: 0.35cm; line-height: 115%; text-decoration: none">
+		The picture and diagram below are hopefully self explanatory. </p>
+		<p lang="en-US" style="margin-bottom: 0.35cm; line-height: 115%; text-decoration: none">
+		<img alt="Raspberry Pi Connections" src="images/dual%20nano%20raspi_bb.png" style="width: 918px; height: 1167px" /></p>
+		<p lang="en-US" style="margin-bottom: 0.35cm; line-height: 115%; text-decoration: none">
+		To enable our Module to operate in this mode it is necessary to make pin 
+		D10 HIGH by connecting the 3.3V pin to it with the jumper wire. It's also necessary to have a 
+		common ground between the Raspberry Pi or microcontroller and our 
+		Module. <strong>Make sure that the power source for the Raspberry Pi is 
+		at least 2.5A.</strong> These connections must be made with the power to our Module 
+		being disconnected. See diagram.</p>
+		<p lang="en-US" style="margin-bottom: 0.35cm; line-height: 115%; text-decoration: none">
+		So when a GPIO pin on your Raspiberry Pi or output pin on your 
+		microcontroller goes HIGH (between 3v and a max. of 5v) our Module 
+		transmits a radio signal at 433MHz to turn a socket ON. When the signal 
+		from the Raspberry Pi or microcontroler goes LOW, our Module transmits 
+		another signal turning the socket OFF. The socket only remains ON for as 
+		long as the GPIO pin or microcontroller pin remains HIGH.
+		<a href="https://youtu.be/IiZbc43tA2E">See our Youtube video here</a>.</p>
+		<p lang="en-US" style="margin-bottom: 0.35cm; line-height: 115%; text-decoration: none" class="auto-style3">
+		<strong><a href="https://youtu.be/xjRYCRct6Sg">PAIRING OF SOCKETS TO OUR MODULE</a></strong></p>
+		<p lang="en-US" style="margin-bottom: 0.35cm; line-height: 115%; text-decoration: none">
+		Do this BEFORE you connect your Raspberry Pi or microcontroller to our 
+		Module. Remember that pin D10 has to be HIGH in this Mode.</p>
+		<p lang="en-US" style="margin-bottom: 0.35cm; line-height: 115%; text-decoration: none">
+		Suppose you want to pair a socket to pin D2. You simply press the 
+		pairing button on the socket of your choice. Usually this will result in 
+		a flashing light on the socket. </p>
+		<p lang="en-US" style="margin-bottom: 0.35cm; line-height: 115%; text-decoration: none">
+		You release the pairing button and then 
+		make pin D2 HIGH by connecting it with a jumper wire to the 3.3V pin temporarily. The 
+		socket will turn ON. When you disconnect the jumper wire from the D2 slot in 
+		the breadboard the socket should turn OFF. </p>
+		<p lang="en-US" style="margin-bottom: 0.35cm; line-height: 115%; text-decoration: none">
+		Now every time pin D2 
+		is set HIGH or LOW by the Raspi or microcontroller that particular socket turns ON or OFF.</p>
+		<p lang="en-US" style="margin-bottom: 0.35cm; line-height: 150%">You can 
+		then repeat this procedure for pins D3, D4, D5, D6, D7, D8 and D9 if you 
+		like.</p>
+		<p lang="en-US" style="margin-bottom: 0.35cm; line-height: 150%">
+		<strong>WHY A BREADBOARD INSTEAD OF A PCB?</strong></p>
+		<p lang="en-US" style="margin-bottom: 0.35cm; line-height: 150%">By 
+		using a breadboard we are able to give useful employment to a person 
+		with Special Needs who wouldn't be able to solder. The breadboard is highly reliable and safe as it only has 
+		5V DC connected to it. If you want to connect the parts on the 
+		breadboard to a PCB then we can supply you with a PCB and you can solder 
+		the cpmponents on the PCB yourself. There is no extra cost for this. If 
+		you want both a breadboard and a PCB there is an additional cost of €2.</p>
+
+	<!-- end of content column: put your content above this line -->
+	</div>
+	<!-- #EndEditable -->
+	</div>
+
+	<div id="tswsidecol">
+	<div id="tswsideproper">
+	<!-- start of side column: insert your navigation menu, etc, here -->
+    <div id="tswcssbuttons">
+<ul>
+<li class="auto-style4"><a href="https://www.turnitonfromanywhere.com">Home</a></li>
+	<li><span lang="en-gb" class="auto-style4"><a href="buy.html">Buy</a></span></li>
+	<li class="auto-style4"><a href="https://www.turnitonfromanywhere.com/safety.html">Safety</a></li>
+	<li class="auto-style4"><a href="https://www.turnitonfromanywhere.com/modes_of_operation.html">Modes of Operation</a></li>
+	<li class="auto-style4"><a href="https://www.turnitonfromanywhere.com/competitors.html">Competitors</a></li>
+	<li class="auto-style4"><a href="https://www.turnitonfromanywhere.com/you_supply.html">You Supply</a></li>
+	<li class="auto-style4"><a href="https://www.turnitonfromanywhere.com/privacy.html">Privacy</a></li>
+	<li class="auto-style4"><a href="https://www.turnitonfromanywhere.com/feedback.html">Contact</a></li>
+	<li><span lang="en-gb" class="auto-style4"><a href="sitemap.html">Site Map</a></span></li>
+</ul>
+</div>
+
+	<!-- end of side column: put your navigation menu, etc, above this line -->
+	</div>
+	</div>
+	<div style="clear: both;"></div>
+
+	<div id="tswfooter">
+	<!-- start of footer section: insert your copyright notice, etc, here -->
+
+	<p>
+	<a href="https://www.thesitewizard.com/">https://www.thesitewizard.com/</a><span lang="en-gb">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	<span class="auto-style2">THIS SITE DOES NOT COLLECT COOKIES</span></span><br />
+	<br />
+	</p>
+
+	<!-- end of footer section: insert your copyright notice, etc, above this line -->
+	</div>
+
+</div>
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
